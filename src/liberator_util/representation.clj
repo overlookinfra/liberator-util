@@ -1,4 +1,4 @@
-(ns liberator-util.render
+(ns liberator-util.representation
   (:require [clojure.string :as str]
             [cheshire.core :as json]
             [liberator.representation :as lib-rep]))
