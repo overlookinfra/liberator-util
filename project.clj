@@ -5,7 +5,7 @@
    :password :env/nexus_jenkins_password
    :sign-releases false})
 
-(defproject puppetlabs/liberator-util "0.2.0"
+(defproject puppetlabs/liberator-util "0.2.1-SNAPSHOT"
   :description "A library to coordinate custom rendering in liberator."
   :url "https://github.com/aperiodic/liberator-util"
   :license {:name "Eclipse Public License"
