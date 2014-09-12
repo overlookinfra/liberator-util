@@ -1,8 +1,8 @@
-(ns liberator-util.representation-test
+(ns puppetlabs.liberator-util.representation-test
   (:require [clojure.test :refer :all]
             [cheshire.core :as json]
             [liberator.core :refer [resource]]
-            [liberator-util.representation :refer :all]
+            [puppetlabs.liberator-util.representation :refer :all]
             [ring.mock.request :refer [request]]))
 
 (def json-mime "application/json")
